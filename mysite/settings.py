@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 
 import os
 
+LOGIN_REDIRECT_URL = '/'
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -26,7 +27,6 @@ SECRET_KEY = 'x3svsg415ou$#=5qdcgyuf)tu99@2_ns7csptart3z57-&z$mn'
 DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', 'bill00lee.pythonanywhere.com']
-
 
 # Application definition
 
