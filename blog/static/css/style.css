@@ -232,7 +232,7 @@ a:hover {
 }
 
 .nav-menu ul {
-  position: absolute;
+  position: relative;
   display: none;
   top: 100%;
   left: 0;
